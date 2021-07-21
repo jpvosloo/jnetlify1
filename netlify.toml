@@ -4,7 +4,9 @@
   
   [[plugins]]
   package = "netlify-plugin-visual-diff"
-  
+    [plugins.inputs]
+    failBuildOnDiff = false
+    
    [[plugins.inputs.browser]]
      name = "chrome"
      width = 1024
